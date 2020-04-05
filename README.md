@@ -6,5 +6,5 @@ Project week omnistack 11
 - npm start
 
 ### server
-- http://localhost:3333/
+- http://localhost:3334/
 
