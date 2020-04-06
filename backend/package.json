@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon src/server.js",
     "debug": "node --inspect-brk=9229 src/server.js",
-    "test": "cross-env NODE_ENV=test  jest"
+    "test": "cross-env NODE_ENV=test  jest --runInBand"
   },
   "keywords": [],
   "author": "",

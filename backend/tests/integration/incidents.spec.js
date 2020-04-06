@@ -3,9 +3,13 @@ const app = require("../../src/app");
 const connection = require("../../src/dataBase/connection");
 
 describe("Incident", () => {
-  beforeEach(async () => {
+  beforeAll(async () => {
     await connection.migrate.rollback();
     await connection.migrate.latest();
+  });
+
+  beforeEach(async () => {
+    await connection("incidents").truncate();
   });
 
   afterAll(async () => {
