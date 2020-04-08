@@ -5,7 +5,9 @@ module.exports = {
     const { page = 1 } = req.query;
 
     const [incident] = await connection("incidents");
-    console.log(incident.description);
+    console.log("page " + page);
+    console.log("page " + (page - 1) * 5);
+    console.log("-");
 
     const [count] = await connection("incidents").count();
 

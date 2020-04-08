@@ -24,4 +24,5 @@ yarn-debug.log*
 yarn-error.log*
 
 #database
-/src/dataBase/test.sqlite
+src/dataBase/test.sqlite
+src/dataBase/db.sqlite
