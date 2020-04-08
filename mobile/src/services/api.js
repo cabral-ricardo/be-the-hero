@@ -1,8 +1,8 @@
-import axios from 'axios'
+import axios from "axios";
 
 const api = axios.create({
-    baseURL: 'http://192.168.1.84:3333'
-})
+  baseURL: "http://192.168.0.20:3334",
+  //baseURL: "96-z2p.anonymous.mobile.exp.direct:3334",
+});
 
-export default api
-
+export default api;
