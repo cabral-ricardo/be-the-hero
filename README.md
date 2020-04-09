@@ -18,3 +18,9 @@ Project week omnistack 11
 ### server
 - http://localhost:3000/
 
+## mobile
+- npm install
+- npm start
+- install expo:
+  - https://docs.expo.io/versions/v37.0.0/get-started/installation/
+  - https://github.com/Rocketseat/expo-common-issues#expo-command-not-found
