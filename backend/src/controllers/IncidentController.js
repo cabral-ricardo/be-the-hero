@@ -3,7 +3,7 @@ const connection = require("../dataBase/connection");
 module.exports = {
   async index(req, res) {
     const { page = 1 } = req.query;
-    myfunc555();
+
     const [incident] = await connection("incidents");
     console.log("page " + page);
     console.log("page " + (page - 1) * 5);
