@@ -3,7 +3,6 @@ const router_incidentes = require("./routes/incidents");
 const routesr_ongs = require("./routes/ongs");
 const router_profiles = require("./routes/profiles");
 const router_sessions = require("./routes/sessions");
-
 const { errors } = require("celebrate");
 const cors = require("cors");
 

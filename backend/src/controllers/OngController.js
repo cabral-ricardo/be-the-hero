@@ -13,7 +13,7 @@ module.exports = {
       email,
       whatsapp,
       city,
-      uf
+      uf,
     });
 
     return res.json({ id });
@@ -29,5 +29,5 @@ module.exports = {
     await connection("ongs").where("id", id).delete();
 
     return res.status(204).send();
-  }
+  },
 };
